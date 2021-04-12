@@ -2,7 +2,7 @@
   "name": "restor-data-types",
   "version": "1.0.0",
   "description": "Shared data types for the Restor platform.",
-  "main": "index.js",
+  "types": "dist/src/index.d.ts",
   "dependencies": {
     "@turf/turf": "^5.1.6",
     "firebase-admin": "^9.3.0",
