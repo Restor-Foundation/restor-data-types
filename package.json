@@ -1,7 +1,8 @@
 {
   "name": "restor-data-types",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shared data types for the Restor platform.",
+  "main": "dist/src/index.d.ts",
   "types": "dist/src/index.d.ts",
   "dependencies": {
     "@turf/turf": "^5.1.6",
