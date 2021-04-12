@@ -1,0 +1,24 @@
+{
+  "name": "restor-data-types",
+  "version": "1.0.0",
+  "description": "Shared data types for the Restor platform.",
+  "main": "index.js",
+  "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "firebase-admin": "^9.3.0",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikas/restor-data-types.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikas/restor-data-types/issues"
+  },
+  "homepage": "https://github.com/ikas/restor-data-types#readme"
+}
