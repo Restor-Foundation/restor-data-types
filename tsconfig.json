@@ -3,9 +3,9 @@
   "compilerOptions": {
     "composite": true,
     "declaration": true,
-    "emitDeclarationOnly": true,
     "esModuleInterop": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "module": "commonjs"
   },
   "exclude": [
     "node_modules"
