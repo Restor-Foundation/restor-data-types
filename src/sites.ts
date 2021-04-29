@@ -68,6 +68,7 @@ export interface ISiteVisibilityType {
 
 interface ISiteInfoTypes {
   title: string;
+  description: string;
   type: 'Boolean' | 'Categorical' | 'Date' | 'Numerical' | 'Plain Text';
 }
 
