@@ -68,8 +68,10 @@ export interface ISiteVisibilityType {
 
 interface ISiteInfoTypes {
   title: string;
-  type: 'Boolean' | 'Categorical' | 'Date' | 'Numerical' | 'Plain Text';
+  required: boolean;
+  type: 'Boolean' | 'Categorical' | 'Date' | 'Numerical' | 'Plain Text' | 'Tags';
   description?: string;
+  options?: string[];
 }
 
 /**
@@ -99,13 +101,11 @@ export interface ISiteInfoBoolean extends ISiteInfoTypes {
  *         type: string
  *         description: always 'Categorical'
  *       value:
- *         type: array
- *         items:
- *           type: string
+ *         type: string
  */
 export interface ISiteInfoCategorical extends ISiteInfoTypes {
   type: 'Categorical';
-  value: string[];
+  value: string;
 }
 
 /**
@@ -163,6 +163,25 @@ export interface ISiteInfoPlainText extends ISiteInfoTypes {
 /**
  * @swagger
  * definitions:
+ *   ISiteInfoTags:
+ *     type: object
+ *     properties:
+ *       type:
+ *         type: string
+ *         description: always 'Tags'
+ *       value:
+ *         type: array
+ *         items:
+ *           type: string
+ */
+ export interface ISiteInfoTags extends ISiteInfoTypes {
+  type: 'Tags';
+  value: string[];
+}
+
+/**
+ * @swagger
+ * definitions:
  *   MetaDataType:
  *     type: object
  *     properties:
@@ -176,7 +195,8 @@ export type MetaDataType =
   | ISiteInfoCategorical
   | ISiteInfoDate
   | ISiteInfoNumerical
-  | ISiteInfoPlainText;
+  | ISiteInfoPlainText
+  | ISiteInfoTags;
 
 /**
  * @swagger
