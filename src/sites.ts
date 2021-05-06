@@ -216,9 +216,6 @@ export type MetaDataType =
  *         type: array
  *         items:
  *           $ref: '#/definitions/MetaDataType'
- *       restorationStatus:
- *         type: boolean
- *         default: false
  *       website:
  *         type: string
  *       area:
@@ -250,7 +247,6 @@ export interface ISiteType {
   geometry: ValidGeometryType;
   members?: ISiteMemberType[];
   metadata?: MetaDataType[];
-  restorationStatus: boolean;
   createdAt?: Date;
   updatedAt?: Date;
   visibility?: ISiteVisibilityType;
