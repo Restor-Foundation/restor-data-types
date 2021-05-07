@@ -72,6 +72,7 @@ interface ISiteInfoTypes {
   type: 'Boolean' | 'Categorical' | 'Date' | 'Numerical' | 'Plain Text' | 'Tag';
   description?: string;
   options?: string[];
+  default?: boolean;
 }
 
 /**
