@@ -213,6 +213,8 @@ export type MetaDataType =
  *         type: string
  *       description:
  *         type: string
+ *       photo:
+ *         type: string
  *       metadata:
  *         type: array
  *         items:
@@ -242,6 +244,7 @@ export interface ISiteType {
   name: string;
   slug: string;
   description: string;
+  photo: string;
   collection?: ICollectionType;
   website: string;
   area?: number;
