@@ -256,3 +256,32 @@ export interface ISiteType {
   visibility?: ISiteVisibilityType;
   accessLevel?: 'viewer' | 'editor' | 'owner';
 }
+
+/**
+ * @swagger
+ * definitions:
+ *   ISiteMapPin:
+ *     type: object
+ *     properties:
+ *       id:
+ *         type: string
+ *       slug:
+ *         type: string
+ *       centroid:
+ *         type: object
+ *         properties:
+ *           type:
+ *             type: string
+ *           coordinates:
+ *             type: array
+ *             items:
+ *               type: integer
+ */
+ export interface ISiteMapPin {
+  id: string;
+  slug: string;
+  centroid: {
+    type: string;
+    coordinates: number[];
+  };
+}
