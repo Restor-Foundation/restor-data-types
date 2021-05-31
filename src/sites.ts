@@ -265,23 +265,22 @@ export interface ISiteType {
  *     properties:
  *       id:
  *         type: string
+ *       name:
+ *         type: string
  *       slug:
  *         type: string
- *       centroid:
- *         type: object
- *         properties:
- *           type:
- *             type: string
- *           coordinates:
- *             type: array
- *             items:
- *               type: integer
+ *       centroidLatitude:
+ *         type: float
+ *       centroidLongitude:
+ *         type: float
+ *       area:
+ *         type: float
  */
  export interface ISiteMapPin {
   id: string;
+  name: string;
   slug: string;
-  centroid: {
-    type: string;
-    coordinates: number[];
-  };
+  centroidLatitude: number;
+  centroidLongitude: number;
+  area: number;
 }
