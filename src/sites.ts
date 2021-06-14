@@ -221,6 +221,8 @@ export type MetaDataType =
  *           $ref: '#/definitions/MetaDataType'
  *       website:
  *         type: string
+ *       contactEmail:
+ *         type: string
  *       area:
  *         type: number
  *       geometry:
@@ -247,6 +249,7 @@ export interface ISiteType {
   photo: string;
   collection?: ICollectionType;
   website: string;
+  contactEmail: string;
   area?: number;
   geometry: ValidGeometryType;
   members?: ISiteMemberType[];
