@@ -281,9 +281,6 @@ export interface ISiteType {
  */
  export interface ISiteMapPin {
   id: string;
-  name: string;
-  slug: string;
   centroidLatitude: number;
   centroidLongitude: number;
-  area: number;
 }
