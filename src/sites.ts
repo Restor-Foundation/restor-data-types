@@ -1,5 +1,5 @@
 import { GeometryCollection, MultiPolygon, Polygon } from '@turf/turf';
-import { IUserType } from './identity';
+import { IUserType, IMemberType } from './identity';
 import { ITeamType } from './teams';
 import { ICollectionType } from './collections';
 
@@ -258,6 +258,7 @@ export interface ISiteType {
   updatedAt?: Date;
   visibility?: ISiteVisibilityType;
   accessLevel?: 'viewer' | 'editor' | 'owner';
+  owner?: IMemberType;
 }
 
 /**
