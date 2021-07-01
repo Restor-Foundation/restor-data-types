@@ -232,6 +232,12 @@ export interface ISpeciesChart extends IAbstractCalculationBrickType {
     unit?: string;
     species: SpeciesInfo[];
   };
+  speciesCalculationResponse: {
+    countries: string[];
+    species: SpeciesInfo[];
+    jointSpeciesList: SpeciesInfo[];
+    speciesInCountries: SpeciesInfo[];
+  };
 }
 
 /** Calculation errors */
