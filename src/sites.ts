@@ -8,6 +8,25 @@ export type ValidGeometryType = Polygon | MultiPolygon | GeometryCollection;
 /**
  * @swagger
  * definitions:
+ *   ISiteGalleryPhoto:
+ *     type: object
+ *     properties:
+ *       id:
+ *         type: string
+ *       url:
+ *         type: string
+ *       description:
+ *         type: string
+ */
+ export interface ISiteGalleryPhoto {
+  id: string;
+  url: string;
+  description: string;
+}
+
+/**
+ * @swagger
+ * definitions:
  *   ISiteMemberType:
  *     type: object
  *     properties:
@@ -259,6 +278,7 @@ export interface ISiteType {
   visibility?: ISiteVisibilityType;
   accessLevel?: 'viewer' | 'editor' | 'owner';
   owner?: IMemberType;
+  gallery?: ISiteGalleryPhoto[];
 }
 
 /**
