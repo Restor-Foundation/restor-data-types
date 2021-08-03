@@ -28,6 +28,8 @@ export interface IAreaReference {
   boundaryId?: string;
   /** Site id */
   siteId?: string;
+  /** Site UUID */
+  siteUUID?: string;
 }
 export interface IInsightsResponse {
   chapters: IInsightChapterDefinition[];
