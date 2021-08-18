@@ -67,6 +67,7 @@ export interface ITeamType {
   collections?: ICollectionMemberType[];
   sites?: ISiteMemberType[];
   siteCount: number;
+  sumArea: number;
 }
 
 /**
