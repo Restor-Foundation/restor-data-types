@@ -18,6 +18,12 @@ import UserRecord = admin.auth.UserRecord;
  *       displayName:
  *         type: string
  *         example: Lisa Smith
+ *       firstName:
+ *         type: string
+ *         example: Lisa
+ *       lastName:
+ *         type: string
+ *         example: Smith
  *       email:
  *         type: string
  *         example: example@email.com
@@ -42,6 +48,8 @@ import UserRecord = admin.auth.UserRecord;
 export interface IUserType {
   uid: string;
   displayName: string;
+  firstName: string;
+  lastName: string;
   email: string;
   photoURL: string;
   sites?: ISiteMemberType[];
@@ -62,12 +70,20 @@ export interface IUserType {
  *       displayName:
  *         type: string
  *         example: Lisa Smith
+ *       firstName:
+ *         type: string
+ *         example: Lisa
+ *       lastName:
+ *         type: string
+ *         example: Smith
  *       photoURL:
  *         type: string
  */
 export interface IUserTypeMinimal {
   uid: string;
   displayName: string;
+  firstName: string;
+  lastName: string;
   photoURL: string;
 }
 
