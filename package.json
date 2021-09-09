@@ -3,7 +3,7 @@
   "version": "1.7.3",
   "description": "Shared data types for the Restor platform.",
   "main": "src/index.ts",
-  "types": "dist/src/index.d.ts",
+  "types": "src/index.ts",
   "dependencies": {
     "@turf/turf": "^5.1.6",
     "firebase-admin": "^9.3.0",
