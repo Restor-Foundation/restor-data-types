@@ -18,7 +18,7 @@ export type ValidGeometryType = Polygon | MultiPolygon | GeometryCollection;
  *       description:
  *         type: string
  */
- export interface ISiteGalleryPhoto {
+export interface ISiteGalleryPhoto {
   id: string;
   url: string;
   description: string;
@@ -92,6 +92,7 @@ interface ISiteInfoTypes {
   description?: string;
   options?: string[];
   default?: boolean;
+  order?: number;
 }
 
 /**
