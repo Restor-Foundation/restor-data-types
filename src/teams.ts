@@ -1,7 +1,6 @@
 import { IUserType } from './identity';
 import { ICollectionMemberType } from './collections';
 import { ISiteMemberType } from './sites';
-import { ModerationStates } from './moderation';
 
 /**
  * @swagger
@@ -61,8 +60,6 @@ export interface ITeamType {
   name: string;
   slug: string;
   image: string;
-  moderation: ModerationStates;
-  moderationDescription: string;
   createdAt: Date;
   updatedAt: Date;
   members?: ITeamMemberType[];

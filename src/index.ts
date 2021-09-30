@@ -7,4 +7,3 @@ export * from './share';
 export * from './sites';
 export * from './stats';
 export * from './teams';
-export * from './moderation';
