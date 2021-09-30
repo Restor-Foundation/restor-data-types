@@ -1536,9 +1536,14 @@
         "signature": "58c1bda33615f1f65096cdbdbf3bc5c38eb5356bed63890413645b88c091d40f",
         "affectsGlobalScope": false
       },
+      "../src/moderation.ts": {
+        "version": "6e4898fbf291f4214770f035580f1f2b1f751b5fb85077e99182c623bfa88f8f",
+        "signature": "3451aa313172281199f33049e833a4d2332ba60551f43f663da6e1fcd67720ff",
+        "affectsGlobalScope": false
+      },
       "../src/teams.ts": {
-        "version": "ff72deb5bf42da4db9af559cbe2e811405297a9fe974d96f168c0123e31654e9",
-        "signature": "dd30dc9a862bf73e9d9a93933b45da43b7d812c9a0f45a1c5cef52ef4f5918ff",
+        "version": "5c3f6a3c8a9c55dccc8b24f935056ad8c8602addd49e9759f05e33ae573a36e4",
+        "signature": "eeb8e2a1abe618e6df65db9ab9e0acd7a279a318e18e1f1c3fec794cbb2f521f",
         "affectsGlobalScope": false
       },
       "../src/identity.ts": {
@@ -1547,8 +1552,8 @@
         "affectsGlobalScope": false
       },
       "../src/sites.ts": {
-        "version": "4dbcfa16c33c5d4fa311e5118dcb64c02d3a3be024912a77a52607366c7f9407",
-        "signature": "10a68520d24fbfe490cc6e1dd19af69a05bc6e0ebd62c0f6e46aa63a8f43298e",
+        "version": "898cb8888e9b8163ebf152990658305b29a0618530835e2aa4f68a5249215db7",
+        "signature": "f2a5e495a0985918df9850993bb1cfb0cb31fe00208dee7892624a19f99e8275",
         "affectsGlobalScope": false
       },
       "../src/insights.ts": {
@@ -2901,11 +2906,13 @@
         "../node_modules/@turf/turf/index.d.ts",
         "../src/collections.ts",
         "../src/identity.ts",
+        "../src/moderation.ts",
         "../src/teams.ts"
       ],
       "../src/teams.ts": [
         "../src/collections.ts",
         "../src/identity.ts",
+        "../src/moderation.ts",
         "../src/sites.ts"
       ]
     },
@@ -4220,11 +4227,13 @@
         "../node_modules/@turf/turf/index.d.ts",
         "../src/collections.ts",
         "../src/identity.ts",
+        "../src/moderation.ts",
         "../src/teams.ts"
       ],
       "../src/teams.ts": [
         "../src/collections.ts",
         "../src/identity.ts",
+        "../src/moderation.ts",
         "../src/sites.ts"
       ]
     },
@@ -4541,6 +4550,7 @@
       "../src/identity.ts",
       "../src/index.ts",
       "../src/insights.ts",
+      "../src/moderation.ts",
       "../src/share.ts",
       "../src/sites.ts",
       "../src/stats.ts",

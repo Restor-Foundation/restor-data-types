@@ -2,6 +2,7 @@ import { GeometryCollection, MultiPolygon, Polygon } from '@turf/turf';
 import { IUserType, IMemberType } from './identity';
 import { ITeamType } from './teams';
 import { ICollectionType } from './collections';
+import { ModerationStates } from './moderation';
 
 export type ValidGeometryType = Polygon | MultiPolygon | GeometryCollection;
 
@@ -22,6 +23,8 @@ export interface ISiteGalleryPhoto {
   id: string;
   url: string;
   description: string;
+  moderation: ModerationStates;
+  moderationDescription: string | null;
 }
 
 /**
@@ -267,6 +270,8 @@ export interface ISiteType {
   slug: string;
   description: string;
   photo: string;
+  moderation: ModerationStates;
+  moderationDescription: string | null;
   collection?: ICollectionType;
   website: string;
   contactEmail: string;
