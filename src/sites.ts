@@ -2,6 +2,7 @@ import { GeometryCollection, MultiPolygon, Polygon } from '@turf/turf';
 import { IUserType, IMemberType } from './identity';
 import { ITeamType } from './teams';
 import { ICollectionType } from './collections';
+import { ModerationStates } from './moderation';
 
 export type ValidGeometryType = Polygon | MultiPolygon | GeometryCollection;
 
@@ -22,6 +23,8 @@ export interface ISiteGalleryPhoto {
   id: string;
   url: string;
   description: string;
+  moderation: ModerationStates;
+  moderationDescription: string | null;
 }
 
 /**
@@ -195,7 +198,7 @@ export interface ISiteInfoPlainText extends ISiteInfoTypes {
  *         items:
  *           type: string
  */
- export interface ISiteInfoTag extends ISiteInfoTypes {
+export interface ISiteInfoTag extends ISiteInfoTypes {
   type: 'Tag';
   value: string[];
 }
@@ -267,6 +270,8 @@ export interface ISiteType {
   slug: string;
   description: string;
   photo: string;
+  moderation: ModerationStates;
+  moderationDescription: string;
   collection?: ICollectionType;
   website: string;
   contactEmail: string;
@@ -301,7 +306,7 @@ export interface ISiteType {
  *       area:
  *         type: float
  */
- export interface ISiteMapPin {
+export interface ISiteMapPin {
   id: string;
   centroidLatitude: number;
   centroidLongitude: number;
