@@ -19,3 +19,4 @@ __exportStar(require("./share"), exports);
 __exportStar(require("./sites"), exports);
 __exportStar(require("./stats"), exports);
 __exportStar(require("./teams"), exports);
+__exportStar(require("./moderation"), exports);
