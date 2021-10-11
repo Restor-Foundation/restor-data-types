@@ -59,8 +59,8 @@ export interface ITeamType {
     name: string;
     slug: string;
     image: string;
-    moderation: ModerationStates;
-    moderationDescription: string | null;
+    moderation?: ModerationStates;
+    moderationDescription?: string | null;
     createdAt: Date;
     updatedAt: Date;
     members?: ITeamMemberType[];

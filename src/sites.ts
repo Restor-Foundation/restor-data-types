@@ -18,6 +18,14 @@ export type ValidGeometryType = Polygon | MultiPolygon | GeometryCollection;
  *         type: string
  *       description:
  *         type: string
+ *       moderation:
+ *         type: string
+ *       moderationDescription:
+ *         type: string
+ *       createdBy:
+ *         type: number
+ *       updatedBy:
+ *         type: number
  */
 export interface ISiteGalleryPhoto {
   id: string;
@@ -25,6 +33,8 @@ export interface ISiteGalleryPhoto {
   description: string;
   moderation?: ModerationStates;
   moderationDescription?: string | null;
+  createdBy?: number;
+  updatedBy?: number;
 }
 
 /**

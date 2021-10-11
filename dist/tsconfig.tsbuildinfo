@@ -657,8 +657,8 @@
         "affectsGlobalScope": false
       },
       "../src/boundaries.ts": {
-        "version": "a6ac7ae6769384dc36ee514cfc8b0742cc1e3e7615668fe50698f172716a52c6",
-        "signature": "0499cfde97bd3a7247263d321bc99576dc4a6894e77cbc1759a01e7bb9ae52d7",
+        "version": "ea6b24ee12d69b6bb3a7f11287547c75f2b3cf97aa4cc09aa76d89ac887aebd8",
+        "signature": "061401bcd9b0e6b982e6aba044d04761cd069b45606a2db2b1bfc4c2fa1a4852",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/globals.d.ts": {
@@ -1141,7 +1141,7 @@
         "signature": "01b8fe09ea0b18ceba458308fd349bd2545227995c1b370a6897ea7c8f4ae577",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-auth-library/build/src/auth/envdetect.d.ts": {
+      "../node_modules/google-auth-library/build/src/auth/envDetect.d.ts": {
         "version": "ea9efc84288c02adb551e56f59235b5b3d613993acb0cbb74f1e1169a6ddaf23",
         "signature": "ea9efc84288c02adb551e56f59235b5b3d613993acb0cbb74f1e1169a6ddaf23",
         "affectsGlobalScope": false
@@ -1211,42 +1211,42 @@
         "signature": "e1dbceada42536aa42a311e477d8a164f67fc6b8c1bed33f269358b72e46309a",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/googleerror.d.ts": {
+      "../node_modules/google-gax/build/src/googleError.d.ts": {
         "version": "0a8c3ba17793082cdf09a6a048aeca17da5e6bbd426193d7c1a43ba3ffc1736a",
         "signature": "0a8c3ba17793082cdf09a6a048aeca17da5e6bbd426193d7c1a43ba3ffc1736a",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/streamingcalls/streaming.d.ts": {
+      "../node_modules/google-gax/build/src/streamingCalls/streaming.d.ts": {
         "version": "6d367075a3ceb4524e65795b53b5f99e4f797157b8909e19abaf27bc1a3c2d7b",
         "signature": "6d367075a3ceb4524e65795b53b5f99e4f797157b8909e19abaf27bc1a3c2d7b",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/apicaller.d.ts": {
+      "../node_modules/google-gax/build/src/apiCaller.d.ts": {
         "version": "5b016a20523753fb55e44223ad7e4f2728a3d6b83771e8f2b52a3212d612f494",
         "signature": "5b016a20523753fb55e44223ad7e4f2728a3d6b83771e8f2b52a3212d612f494",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/paginationcalls/pagedescriptor.d.ts": {
+      "../node_modules/google-gax/build/src/paginationCalls/pageDescriptor.d.ts": {
         "version": "fc831788d78ccee85562cbbdca8dbf955dc1540d9bc33525b7cfee9be2732de7",
         "signature": "fc831788d78ccee85562cbbdca8dbf955dc1540d9bc33525b7cfee9be2732de7",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/streamingcalls/streamdescriptor.d.ts": {
+      "../node_modules/google-gax/build/src/streamingCalls/streamDescriptor.d.ts": {
         "version": "4e4fe8efe7c7f488f911e8f96e2d0ee1ce5408c2ffffa228b3e6a94abfbffc20",
         "signature": "4e4fe8efe7c7f488f911e8f96e2d0ee1ce5408c2ffffa228b3e6a94abfbffc20",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/normalcalls/normalapicaller.d.ts": {
+      "../node_modules/google-gax/build/src/normalCalls/normalApiCaller.d.ts": {
         "version": "f9a8a74a3277dba5994b7830faa0a72ccbbdde4edc546579ea5f3bfdd833f1c3",
         "signature": "f9a8a74a3277dba5994b7830faa0a72ccbbdde4edc546579ea5f3bfdd833f1c3",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/bundlingcalls/bundleapicaller.d.ts": {
+      "../node_modules/google-gax/build/src/bundlingCalls/bundleApiCaller.d.ts": {
         "version": "6396e07ac9d5653e2ea225c491e7d5b548165eddb49e4293dcad42445fdd2b5b",
         "signature": "6396e07ac9d5653e2ea225c491e7d5b548165eddb49e4293dcad42445fdd2b5b",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/bundlingcalls/bundledescriptor.d.ts": {
+      "../node_modules/google-gax/build/src/bundlingCalls/bundleDescriptor.d.ts": {
         "version": "4356f53b3bcd48f4253465746ccdb0baa38c6bf929712349bffea5426e59c2f4",
         "signature": "4356f53b3bcd48f4253465746ccdb0baa38c6bf929712349bffea5426e59c2f4",
         "affectsGlobalScope": false
@@ -1266,22 +1266,22 @@
         "signature": "76e0bd22faf1cb02c05d439f7c7f4d6f246aa6b12762be1f137db47fee586c37",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/clientinterface.d.ts": {
+      "../node_modules/google-gax/build/src/clientInterface.d.ts": {
         "version": "200424865ea76b7b4b49f90d96de4fab5c1b52405a098315e876146af75c17aa",
         "signature": "200424865ea76b7b4b49f90d96de4fab5c1b52405a098315e876146af75c17aa",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/routingheader.d.ts": {
+      "../node_modules/google-gax/build/src/routingHeader.d.ts": {
         "version": "6ff08a01c33e70289d44268bb3954c9f3c71162085b829dc323279fbf3a70b2a",
         "signature": "6ff08a01c33e70289d44268bb3954c9f3c71162085b829dc323279fbf3a70b2a",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/fallbackerror.d.ts": {
+      "../node_modules/google-gax/build/src/fallbackError.d.ts": {
         "version": "6042d2d618d3077a4a5b0fae3644bb7399b22bbeb8ec4e8b083144546b3c29df",
         "signature": "6042d2d618d3077a4a5b0fae3644bb7399b22bbeb8ec4e8b083144546b3c29df",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/pathtemplate.d.ts": {
+      "../node_modules/google-gax/build/src/pathTemplate.d.ts": {
         "version": "25f989f57da0150fc531eb60696097517c300e41c48f9a35cf8c39a2884e9e9e",
         "signature": "25f989f57da0150fc531eb60696097517c300e41c48f9a35cf8c39a2884e9e9e",
         "affectsGlobalScope": false
@@ -1296,22 +1296,22 @@
         "signature": "868c3f48c3ba1890d7b6a09b00beb5456065305a2e146051948344619ad2bec3",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/operationsclient.d.ts": {
+      "../node_modules/google-gax/build/src/operationsClient.d.ts": {
         "version": "c62efb586d6eae8a7cfe78cf04a22ee9631196efdee5fdf71c052c50519a944f",
         "signature": "c62efb586d6eae8a7cfe78cf04a22ee9631196efdee5fdf71c052c50519a944f",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/longrunningcalls/longrunningapicaller.d.ts": {
+      "../node_modules/google-gax/build/src/longRunningCalls/longRunningApiCaller.d.ts": {
         "version": "b97c43cc5c758375c762546242bd2e5dfecea495d11e7ab8670cdf7800a78a55",
         "signature": "b97c43cc5c758375c762546242bd2e5dfecea495d11e7ab8670cdf7800a78a55",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/longrunningcalls/longrunningdescriptor.d.ts": {
+      "../node_modules/google-gax/build/src/longRunningCalls/longRunningDescriptor.d.ts": {
         "version": "76e8204d6c3f2411c8b0f3e0db34e190880acbc525be4facf882abac3c6e9868",
         "signature": "76e8204d6c3f2411c8b0f3e0db34e190880acbc525be4facf882abac3c6e9868",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/longrunningcalls/longrunning.d.ts": {
+      "../node_modules/google-gax/build/src/longRunningCalls/longrunning.d.ts": {
         "version": "cf09d50994d492c9b49980e8a1e8b6296f8c3b7cfba248fb0a0705fcbd0066de",
         "signature": "cf09d50994d492c9b49980e8a1e8b6296f8c3b7cfba248fb0a0705fcbd0066de",
         "affectsGlobalScope": false
@@ -1321,12 +1321,12 @@
         "signature": "a7d8688d9233bd072030b3cbb02a32c045f21703d83a9588f9e0da388554c099",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/bundlingcalls/task.d.ts": {
+      "../node_modules/google-gax/build/src/bundlingCalls/task.d.ts": {
         "version": "75191cd4f498eecaa71d357b68f198aabff6e9aeb094783bc2e88224f2440e91",
         "signature": "75191cd4f498eecaa71d357b68f198aabff6e9aeb094783bc2e88224f2440e91",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/bundlingcalls/bundleexecutor.d.ts": {
+      "../node_modules/google-gax/build/src/bundlingCalls/bundleExecutor.d.ts": {
         "version": "68ab7ba45dd13e321f9b4ffa2cc9092c66c8a32eac53f8268ef992c9d83bddae",
         "signature": "68ab7ba45dd13e321f9b4ffa2cc9092c66c8a32eac53f8268ef992c9d83bddae",
         "affectsGlobalScope": false
@@ -1346,12 +1346,12 @@
         "signature": "65da51dd1dc74eb57688bef52d9560ef85b8f62816d18399706563c31b51b6fa",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/createapicall.d.ts": {
+      "../node_modules/google-gax/build/src/createApiCall.d.ts": {
         "version": "d5547676ace66ee69a2f115546f63c8df3aa08924dfe3c5330adc309f9e88db0",
         "signature": "d5547676ace66ee69a2f115546f63c8df3aa08924dfe3c5330adc309f9e88db0",
         "affectsGlobalScope": false
       },
-      "../node_modules/google-gax/build/src/iamservice.d.ts": {
+      "../node_modules/google-gax/build/src/iamService.d.ts": {
         "version": "35f382d45192c13ffc63e6b7349bf9eb02d62db2b4ee12b5cf3806d7fc7268f7",
         "signature": "35f382d45192c13ffc63e6b7349bf9eb02d62db2b4ee12b5cf3806d7fc7268f7",
         "affectsGlobalScope": false
@@ -1431,7 +1431,7 @@
         "signature": "24b4b548e684e6c3343089c25de423ab380f6ab7873ba3f46956f3486dfb7685",
         "affectsGlobalScope": false
       },
-      "../node_modules/teeny-request/build/src/teenystatistics.d.ts": {
+      "../node_modules/teeny-request/build/src/TeenyStatistics.d.ts": {
         "version": "eb8f406406a1c933f6793410a632a125d1698cfcfb7a947c54ba498616a65f94",
         "signature": "eb8f406406a1c933f6793410a632a125d1698cfcfb7a947c54ba498616a65f94",
         "affectsGlobalScope": false
@@ -1481,7 +1481,7 @@
         "signature": "9405ad5916e1f00e68643c7fcab3882cec39427a92139c0c8868305ee7d4de49",
         "affectsGlobalScope": false
       },
-      "../node_modules/@google-cloud/storage/build/src/hmackey.d.ts": {
+      "../node_modules/@google-cloud/storage/build/src/hmacKey.d.ts": {
         "version": "f247b3137976a84658c08855bf98933f2b23610b0721a150493826bd24f17a18",
         "signature": "f247b3137976a84658c08855bf98933f2b23610b0721a150493826bd24f17a18",
         "affectsGlobalScope": false
@@ -1537,53 +1537,53 @@
         "affectsGlobalScope": false
       },
       "../src/moderation.ts": {
-        "version": "6e4898fbf291f4214770f035580f1f2b1f751b5fb85077e99182c623bfa88f8f",
-        "signature": "3451aa313172281199f33049e833a4d2332ba60551f43f663da6e1fcd67720ff",
+        "version": "4915a9d6d5e83156ff54d26538aabe199e39b17d0b75da77fe5bdcf843a65b34",
+        "signature": "434c5e52dd6d9ab1804a7a22caa6a114734417114e0219a3a8a2c3a259496d0e",
         "affectsGlobalScope": false
       },
       "../src/teams.ts": {
-        "version": "5c3f6a3c8a9c55dccc8b24f935056ad8c8602addd49e9759f05e33ae573a36e4",
-        "signature": "eeb8e2a1abe618e6df65db9ab9e0acd7a279a318e18e1f1c3fec794cbb2f521f",
+        "version": "933e6a0b39ec7cdc48dbb2b32067ba09bf680aed2540a1a97fb7b31edaa217c1",
+        "signature": "9a06667df65fa69667a649c04c6c2ee967f10695fe60dd93297224e1c2a8eca2",
         "affectsGlobalScope": false
       },
       "../src/identity.ts": {
-        "version": "df47a404d24019c9a926597ea44de78f5e3d6201ffe1795e839cea2e4d014074",
-        "signature": "5af6f580dc035cc1024e845cd22938636321ac87326bca7f1ac7dd1d74e18f10",
+        "version": "68898cd1f1472922b474521ecdcd6c8ba0623254f786de0fd46b6c1ce6cfc40f",
+        "signature": "5069d78bc6bfa6e9e50a1b2009c59fb212f31c197d4023e151021ca70ded479d",
         "affectsGlobalScope": false
       },
       "../src/sites.ts": {
-        "version": "898cb8888e9b8163ebf152990658305b29a0618530835e2aa4f68a5249215db7",
-        "signature": "f2a5e495a0985918df9850993bb1cfb0cb31fe00208dee7892624a19f99e8275",
+        "version": "03f23ef18b3a5dc20a4eba9549a08c5210b05dcf0f45035d3a5c1874f20187a3",
+        "signature": "122911ec88987fce3b47c66563abfc89153ebda2e7e81bf6ec7f23dab3a8edd9",
         "affectsGlobalScope": false
       },
       "../src/insights.ts": {
-        "version": "f7f7851813e07cb3e0c666d920cd5e1a4f4f6214dbc84da5cbc37988ec260a86",
-        "signature": "2ee6979cd00122eae6dc0b31fdc7d8086869b4c7060c60620a159eccefaf4c26",
+        "version": "fc56ec144acf659bbae95875be98667ecdf34d8bac3df410645e4bdddec44d00",
+        "signature": "3a852437b0dc4b026a51bd5f9d7fc3d9896d650fd6699218c9d5b3887eaf93eb",
         "affectsGlobalScope": false
       },
       "../src/data_layers.ts": {
-        "version": "e2547701c4b1d9b297b8ae292fdbdff5c9ac7484fcbaeb55a1a2bbe837e9dd77",
-        "signature": "70b7d20ab2b1f674b7301c1f1a3d0f9f68cbafb05580dcf17dff059af6f7f739",
+        "version": "eed2354e611592a44f371ead3f438416cd128f859108a7c8f99eb5fa01428d50",
+        "signature": "6625def66c517897ebdb0ea4c25b6e9939c92b01a1b056901354300e07f28036",
         "affectsGlobalScope": false
       },
       "../src/share.ts": {
-        "version": "ab341b8a85693a095c33dda82d4f906692ddf7ffbee94213584d9c8886f74dc1",
-        "signature": "e89bc50381362f768987f1403e8d72ee3b0e221c6456a1c88c3d7cd68fdfcfbe",
+        "version": "a9007a3a917a0bc66c5f149dd5d6bbb227e6db85da302c14da593e11cc890723",
+        "signature": "9da1fa616738881724383cead4c614f4a5efbe957fae8818ea9f76a410d21416",
         "affectsGlobalScope": false
       },
       "../src/stats.ts": {
-        "version": "fd492b62b3d89624738372d2de418747b9d5bcde8a8e20bf7089be950437856c",
-        "signature": "57ac413b74aa669a1f1aea5b4b573011224f18df534e7750fee126189750632c",
+        "version": "e6ab0b81e279791a28b7bf04b9ce6cbd1e6b02225fcad183354c208c92cf5623",
+        "signature": "098c7d48338e1f5fa6d3babc5f95a0333cc78365897c172cb2bd0274a3e6b8a4",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
-        "version": "b70903b237c0d4ca6d35efc287f831e554e9f377f47ac8fd10a16cc808d36435",
-        "signature": "b70903b237c0d4ca6d35efc287f831e554e9f377f47ac8fd10a16cc808d36435",
+        "version": "84cdb14a60c21a461e8e4b7fea26f1fba0bdfecce6f87fb891c6065b04e789dd",
+        "signature": "84cdb14a60c21a461e8e4b7fea26f1fba0bdfecce6f87fb891c6065b04e789dd",
         "affectsGlobalScope": false
       },
       "../src/collections.ts": {
-        "version": "06d87498a0523116c50153a904a7fa172d9ccfc255000c227fe0736de470f683",
-        "signature": "6b31ed45ef2713b7e45bb6241c66f012f1bc66450b4f7f7210cc971f7cabea97",
+        "version": "3a62b684a13e4d6b0e68d7e4bf7b46d69df0fc7e7f29cf6d5130832f273b44b7",
+        "signature": "a49d9898146358c7322fe5cfaaca9a7f92cc25138dd2793f851ecc39bf504c63",
         "affectsGlobalScope": false
       }
     },
@@ -1696,7 +1696,7 @@
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/node/stream.d.ts"
       ],
-      "../node_modules/@google-cloud/storage/build/src/hmackey.d.ts": [
+      "../node_modules/@google-cloud/storage/build/src/hmacKey.d.ts": [
         "../node_modules/@google-cloud/common/build/src/index.d.ts",
         "../node_modules/@google-cloud/storage/build/src/storage.d.ts"
       ],
@@ -1709,7 +1709,7 @@
         "../node_modules/@google-cloud/storage/build/src/bucket.d.ts",
         "../node_modules/@google-cloud/storage/build/src/channel.d.ts",
         "../node_modules/@google-cloud/storage/build/src/file.d.ts",
-        "../node_modules/@google-cloud/storage/build/src/hmackey.d.ts",
+        "../node_modules/@google-cloud/storage/build/src/hmacKey.d.ts",
         "../node_modules/@google-cloud/storage/build/src/iam.d.ts",
         "../node_modules/@google-cloud/storage/build/src/notification.d.ts",
         "../node_modules/@google-cloud/storage/build/src/signer.d.ts",
@@ -1729,7 +1729,7 @@
         "../node_modules/@google-cloud/storage/build/src/bucket.d.ts",
         "../node_modules/@google-cloud/storage/build/src/channel.d.ts",
         "../node_modules/@google-cloud/storage/build/src/file.d.ts",
-        "../node_modules/@google-cloud/storage/build/src/hmackey.d.ts",
+        "../node_modules/@google-cloud/storage/build/src/hmacKey.d.ts",
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/node/stream.d.ts"
       ],
@@ -2584,7 +2584,7 @@
         "../node_modules/google-auth-library/build/src/auth/baseexternalclient.d.ts",
         "../node_modules/google-auth-library/build/src/auth/computeclient.d.ts",
         "../node_modules/google-auth-library/build/src/auth/credentials.d.ts",
-        "../node_modules/google-auth-library/build/src/auth/envdetect.d.ts",
+        "../node_modules/google-auth-library/build/src/auth/envDetect.d.ts",
         "../node_modules/google-auth-library/build/src/auth/externalclient.d.ts",
         "../node_modules/google-auth-library/build/src/auth/idtokenclient.d.ts",
         "../node_modules/google-auth-library/build/src/auth/jwtclient.d.ts",
@@ -2635,7 +2635,7 @@
         "../node_modules/google-auth-library/build/src/auth/baseexternalclient.d.ts",
         "../node_modules/google-auth-library/build/src/auth/computeclient.d.ts",
         "../node_modules/google-auth-library/build/src/auth/credentials.d.ts",
-        "../node_modules/google-auth-library/build/src/auth/envdetect.d.ts",
+        "../node_modules/google-auth-library/build/src/auth/envDetect.d.ts",
         "../node_modules/google-auth-library/build/src/auth/externalclient.d.ts",
         "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
         "../node_modules/google-auth-library/build/src/auth/iam.d.ts",
@@ -2659,67 +2659,67 @@
         "../node_modules/@types/long/index.d.ts",
         "../node_modules/protobufjs/index.d.ts"
       ],
-      "../node_modules/google-gax/build/src/apicaller.d.ts": [
+      "../node_modules/google-gax/build/src/apiCaller.d.ts": [
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/call.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/googleerror.d.ts",
-        "../node_modules/google-gax/build/src/streamingcalls/streaming.d.ts"
+        "../node_modules/google-gax/build/src/googleError.d.ts",
+        "../node_modules/google-gax/build/src/streamingCalls/streaming.d.ts"
       ],
       "../node_modules/google-gax/build/src/apitypes.d.ts": [
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/node/stream.d.ts",
         "../node_modules/google-gax/build/src/call.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/googleerror.d.ts",
-        "../node_modules/google-gax/build/src/longrunningcalls/longrunning.d.ts"
+        "../node_modules/google-gax/build/src/googleError.d.ts",
+        "../node_modules/google-gax/build/src/longRunningCalls/longrunning.d.ts"
       ],
-      "../node_modules/google-gax/build/src/bundlingcalls/bundleapicaller.d.ts": [
-        "../node_modules/google-gax/build/src/apicaller.d.ts",
+      "../node_modules/google-gax/build/src/bundlingCalls/bundleApiCaller.d.ts": [
+        "../node_modules/google-gax/build/src/apiCaller.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
-        "../node_modules/google-gax/build/src/bundlingcalls/bundleexecutor.d.ts",
+        "../node_modules/google-gax/build/src/bundlingCalls/bundleExecutor.d.ts",
         "../node_modules/google-gax/build/src/call.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/googleerror.d.ts"
+        "../node_modules/google-gax/build/src/googleError.d.ts"
       ],
-      "../node_modules/google-gax/build/src/bundlingcalls/bundledescriptor.d.ts": [
-        "../node_modules/google-gax/build/src/bundlingcalls/bundleapicaller.d.ts",
+      "../node_modules/google-gax/build/src/bundlingCalls/bundleDescriptor.d.ts": [
+        "../node_modules/google-gax/build/src/bundlingCalls/bundleApiCaller.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/normalcalls/normalapicaller.d.ts"
+        "../node_modules/google-gax/build/src/normalCalls/normalApiCaller.d.ts"
       ],
-      "../node_modules/google-gax/build/src/bundlingcalls/bundleexecutor.d.ts": [
+      "../node_modules/google-gax/build/src/bundlingCalls/bundleExecutor.d.ts": [
         "../node_modules/google-gax/build/src/apitypes.d.ts",
-        "../node_modules/google-gax/build/src/bundlingcalls/bundledescriptor.d.ts",
-        "../node_modules/google-gax/build/src/bundlingcalls/task.d.ts"
+        "../node_modules/google-gax/build/src/bundlingCalls/bundleDescriptor.d.ts",
+        "../node_modules/google-gax/build/src/bundlingCalls/task.d.ts"
       ],
-      "../node_modules/google-gax/build/src/bundlingcalls/task.d.ts": [
+      "../node_modules/google-gax/build/src/bundlingCalls/task.d.ts": [
         "../node_modules/google-gax/build/src/apitypes.d.ts"
       ],
       "../node_modules/google-gax/build/src/call.d.ts": [
         "../node_modules/google-gax/build/src/apitypes.d.ts"
       ],
-      "../node_modules/google-gax/build/src/clientinterface.d.ts": [
+      "../node_modules/google-gax/build/src/clientInterface.d.ts": [
         "../node_modules/google-auth-library/build/src/index.d.ts",
         "../node_modules/google-gax/build/protos/operations.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
         "../node_modules/google-gax/build/src/grpc.d.ts",
-        "../node_modules/google-gax/build/src/longrunningcalls/longrunning.d.ts"
+        "../node_modules/google-gax/build/src/longRunningCalls/longrunning.d.ts"
       ],
-      "../node_modules/google-gax/build/src/createapicall.d.ts": [
+      "../node_modules/google-gax/build/src/createApiCall.d.ts": [
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts"
       ],
       "../node_modules/google-gax/build/src/descriptor.d.ts": [
-        "../node_modules/google-gax/build/src/apicaller.d.ts",
-        "../node_modules/google-gax/build/src/bundlingcalls/bundledescriptor.d.ts",
+        "../node_modules/google-gax/build/src/apiCaller.d.ts",
+        "../node_modules/google-gax/build/src/bundlingCalls/bundleDescriptor.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/longrunningcalls/longrunningdescriptor.d.ts",
-        "../node_modules/google-gax/build/src/paginationcalls/pagedescriptor.d.ts",
-        "../node_modules/google-gax/build/src/streamingcalls/streamdescriptor.d.ts"
+        "../node_modules/google-gax/build/src/longRunningCalls/longRunningDescriptor.d.ts",
+        "../node_modules/google-gax/build/src/paginationCalls/pageDescriptor.d.ts",
+        "../node_modules/google-gax/build/src/streamingCalls/streamDescriptor.d.ts"
       ],
       "../node_modules/google-gax/build/src/fallback.d.ts": [
         "../node_modules/@types/node/http.d.ts",
@@ -2727,25 +2727,25 @@
         "../node_modules/google-auth-library/build/src/index.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
-        "../node_modules/google-gax/build/src/fallbackerror.d.ts",
+        "../node_modules/google-gax/build/src/fallbackError.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
         "../node_modules/google-gax/build/src/grpc.d.ts",
-        "../node_modules/google-gax/build/src/operationsclient.d.ts",
-        "../node_modules/google-gax/build/src/pathtemplate.d.ts",
-        "../node_modules/google-gax/build/src/routingheader.d.ts",
-        "../node_modules/google-gax/build/src/streamingcalls/streaming.d.ts",
+        "../node_modules/google-gax/build/src/operationsClient.d.ts",
+        "../node_modules/google-gax/build/src/pathTemplate.d.ts",
+        "../node_modules/google-gax/build/src/routingHeader.d.ts",
+        "../node_modules/google-gax/build/src/streamingCalls/streaming.d.ts",
         "../node_modules/protobufjs/index.d.ts",
         "../node_modules/protobufjs/minimal.d.ts"
       ],
-      "../node_modules/google-gax/build/src/fallbackerror.d.ts": [
+      "../node_modules/google-gax/build/src/fallbackError.d.ts": [
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/google-gax/build/src/status.d.ts",
         "../node_modules/protobufjs/index.d.ts"
       ],
       "../node_modules/google-gax/build/src/gax.d.ts": [
-        "../node_modules/google-gax/build/src/bundlingcalls/bundleexecutor.d.ts"
+        "../node_modules/google-gax/build/src/bundlingCalls/bundleExecutor.d.ts"
       ],
-      "../node_modules/google-gax/build/src/googleerror.d.ts": [
+      "../node_modules/google-gax/build/src/googleError.d.ts": [
         "../node_modules/google-gax/build/src/status.d.ts"
       ],
       "../node_modules/google-gax/build/src/grpc.d.ts": [
@@ -2757,11 +2757,11 @@
         "../node_modules/google-gax/build/src/gax.d.ts",
         "../node_modules/protobufjs/index.d.ts"
       ],
-      "../node_modules/google-gax/build/src/iamservice.d.ts": [
+      "../node_modules/google-gax/build/src/iamService.d.ts": [
         "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
         "../node_modules/google-auth-library/build/src/index.d.ts",
         "../node_modules/google-gax/build/protos/iam_service.d.ts",
-        "../node_modules/google-gax/build/src/clientinterface.d.ts",
+        "../node_modules/google-gax/build/src/clientInterface.d.ts",
         "../node_modules/google-gax/build/src/fallback.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
         "../node_modules/google-gax/build/src/grpc.d.ts"
@@ -2773,55 +2773,55 @@
         "../node_modules/google-gax/build/protos/operations.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/call.d.ts",
-        "../node_modules/google-gax/build/src/clientinterface.d.ts",
-        "../node_modules/google-gax/build/src/createapicall.d.ts",
+        "../node_modules/google-gax/build/src/clientInterface.d.ts",
+        "../node_modules/google-gax/build/src/createApiCall.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/fallback.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/googleerror.d.ts",
+        "../node_modules/google-gax/build/src/googleError.d.ts",
         "../node_modules/google-gax/build/src/grpc.d.ts",
-        "../node_modules/google-gax/build/src/iamservice.d.ts",
-        "../node_modules/google-gax/build/src/longrunningcalls/longrunning.d.ts",
-        "../node_modules/google-gax/build/src/operationsclient.d.ts",
-        "../node_modules/google-gax/build/src/pathtemplate.d.ts",
-        "../node_modules/google-gax/build/src/routingheader.d.ts",
+        "../node_modules/google-gax/build/src/iamService.d.ts",
+        "../node_modules/google-gax/build/src/longRunningCalls/longrunning.d.ts",
+        "../node_modules/google-gax/build/src/operationsClient.d.ts",
+        "../node_modules/google-gax/build/src/pathTemplate.d.ts",
+        "../node_modules/google-gax/build/src/routingHeader.d.ts",
         "../node_modules/google-gax/build/src/status.d.ts",
-        "../node_modules/google-gax/build/src/streamingcalls/streaming.d.ts",
+        "../node_modules/google-gax/build/src/streamingCalls/streaming.d.ts",
         "../node_modules/protobufjs/index.d.ts",
         "../node_modules/protobufjs/minimal.d.ts"
       ],
-      "../node_modules/google-gax/build/src/longrunningcalls/longrunning.d.ts": [
+      "../node_modules/google-gax/build/src/longRunningCalls/longRunningApiCaller.d.ts": [
+        "../node_modules/google-gax/build/src/apiCaller.d.ts",
+        "../node_modules/google-gax/build/src/apitypes.d.ts",
+        "../node_modules/google-gax/build/src/call.d.ts",
+        "../node_modules/google-gax/build/src/gax.d.ts",
+        "../node_modules/google-gax/build/src/googleError.d.ts",
+        "../node_modules/google-gax/build/src/longRunningCalls/longRunningDescriptor.d.ts"
+      ],
+      "../node_modules/google-gax/build/src/longRunningCalls/longRunningDescriptor.d.ts": [
+        "../node_modules/google-gax/build/src/descriptor.d.ts",
+        "../node_modules/google-gax/build/src/longRunningCalls/longRunningApiCaller.d.ts",
+        "../node_modules/google-gax/build/src/operationsClient.d.ts",
+        "../node_modules/protobufjs/index.d.ts"
+      ],
+      "../node_modules/google-gax/build/src/longRunningCalls/longrunning.d.ts": [
         "../node_modules/@types/node/events.d.ts",
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/google-gax/build/protos/operations.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/call.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/googleerror.d.ts",
+        "../node_modules/google-gax/build/src/googleError.d.ts",
         "../node_modules/google-gax/build/src/grpc.d.ts",
-        "../node_modules/google-gax/build/src/longrunningcalls/longrunningdescriptor.d.ts"
+        "../node_modules/google-gax/build/src/longRunningCalls/longRunningDescriptor.d.ts"
       ],
-      "../node_modules/google-gax/build/src/longrunningcalls/longrunningapicaller.d.ts": [
-        "../node_modules/google-gax/build/src/apicaller.d.ts",
+      "../node_modules/google-gax/build/src/normalCalls/normalApiCaller.d.ts": [
+        "../node_modules/google-gax/build/src/apiCaller.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/call.d.ts",
-        "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/googleerror.d.ts",
-        "../node_modules/google-gax/build/src/longrunningcalls/longrunningdescriptor.d.ts"
+        "../node_modules/google-gax/build/src/googleError.d.ts"
       ],
-      "../node_modules/google-gax/build/src/longrunningcalls/longrunningdescriptor.d.ts": [
-        "../node_modules/google-gax/build/src/descriptor.d.ts",
-        "../node_modules/google-gax/build/src/longrunningcalls/longrunningapicaller.d.ts",
-        "../node_modules/google-gax/build/src/operationsclient.d.ts",
-        "../node_modules/protobufjs/index.d.ts"
-      ],
-      "../node_modules/google-gax/build/src/normalcalls/normalapicaller.d.ts": [
-        "../node_modules/google-gax/build/src/apicaller.d.ts",
-        "../node_modules/google-gax/build/src/apitypes.d.ts",
-        "../node_modules/google-gax/build/src/call.d.ts",
-        "../node_modules/google-gax/build/src/googleerror.d.ts"
-      ],
-      "../node_modules/google-gax/build/src/operationsclient.d.ts": [
+      "../node_modules/google-gax/build/src/operationsClient.d.ts": [
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/node/stream.d.ts",
         "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
@@ -2829,27 +2829,27 @@
         "../node_modules/google-gax/build/protos/operations.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/call.d.ts",
-        "../node_modules/google-gax/build/src/clientinterface.d.ts",
+        "../node_modules/google-gax/build/src/clientInterface.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/fallback.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
         "../node_modules/google-gax/build/src/grpc.d.ts"
       ],
-      "../node_modules/google-gax/build/src/paginationcalls/pagedescriptor.d.ts": [
+      "../node_modules/google-gax/build/src/paginationCalls/pageDescriptor.d.ts": [
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/google-gax/build/src/apicaller.d.ts",
+        "../node_modules/google-gax/build/src/apiCaller.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts"
       ],
-      "../node_modules/google-gax/build/src/streamingcalls/streamdescriptor.d.ts": [
-        "../node_modules/google-gax/build/src/apicaller.d.ts",
+      "../node_modules/google-gax/build/src/streamingCalls/streamDescriptor.d.ts": [
+        "../node_modules/google-gax/build/src/apiCaller.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/streamingcalls/streaming.d.ts"
+        "../node_modules/google-gax/build/src/streamingCalls/streaming.d.ts"
       ],
-      "../node_modules/google-gax/build/src/streamingcalls/streaming.d.ts": [
+      "../node_modules/google-gax/build/src/streamingCalls/streaming.d.ts": [
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/node/stream.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
@@ -2866,7 +2866,7 @@
         "../node_modules/@types/node/https.d.ts",
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/teeny-request/build/src/teenystatistics.d.ts"
+        "../node_modules/teeny-request/build/src/TeenyStatistics.d.ts"
       ],
       "../src/boundaries.ts": [
         "../node_modules/@turf/turf/index.d.ts"
@@ -3017,7 +3017,7 @@
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/node/stream.d.ts"
       ],
-      "../node_modules/@google-cloud/storage/build/src/hmackey.d.ts": [
+      "../node_modules/@google-cloud/storage/build/src/hmacKey.d.ts": [
         "../node_modules/@google-cloud/common/build/src/index.d.ts",
         "../node_modules/@google-cloud/storage/build/src/storage.d.ts"
       ],
@@ -3980,13 +3980,13 @@
         "../node_modules/@types/long/index.d.ts",
         "../node_modules/protobufjs/index.d.ts"
       ],
-      "../node_modules/google-gax/build/src/apicaller.d.ts": [
+      "../node_modules/google-gax/build/src/apiCaller.d.ts": [
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/call.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/googleerror.d.ts",
-        "../node_modules/google-gax/build/src/streamingcalls/streaming.d.ts"
+        "../node_modules/google-gax/build/src/googleError.d.ts",
+        "../node_modules/google-gax/build/src/streamingCalls/streaming.d.ts"
       ],
       "../node_modules/google-gax/build/src/apitypes.d.ts": [
         "../node_modules/@types/node/index.d.ts",
@@ -3996,40 +3996,40 @@
         "../node_modules/google-gax/build/src/googleerror.d.ts",
         "../node_modules/google-gax/build/src/longrunningcalls/longrunning.d.ts"
       ],
-      "../node_modules/google-gax/build/src/bundlingcalls/bundleapicaller.d.ts": [
-        "../node_modules/google-gax/build/src/apicaller.d.ts",
+      "../node_modules/google-gax/build/src/bundlingCalls/bundleApiCaller.d.ts": [
+        "../node_modules/google-gax/build/src/apiCaller.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
-        "../node_modules/google-gax/build/src/bundlingcalls/bundleexecutor.d.ts",
+        "../node_modules/google-gax/build/src/bundlingCalls/bundleExecutor.d.ts",
         "../node_modules/google-gax/build/src/call.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/googleerror.d.ts"
+        "../node_modules/google-gax/build/src/googleError.d.ts"
       ],
-      "../node_modules/google-gax/build/src/bundlingcalls/bundledescriptor.d.ts": [
-        "../node_modules/google-gax/build/src/bundlingcalls/bundleapicaller.d.ts",
+      "../node_modules/google-gax/build/src/bundlingCalls/bundleDescriptor.d.ts": [
+        "../node_modules/google-gax/build/src/bundlingCalls/bundleApiCaller.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/normalcalls/normalapicaller.d.ts"
+        "../node_modules/google-gax/build/src/normalCalls/normalApiCaller.d.ts"
       ],
-      "../node_modules/google-gax/build/src/bundlingcalls/bundleexecutor.d.ts": [
+      "../node_modules/google-gax/build/src/bundlingCalls/bundleExecutor.d.ts": [
         "../node_modules/google-gax/build/src/apitypes.d.ts",
-        "../node_modules/google-gax/build/src/bundlingcalls/bundledescriptor.d.ts",
-        "../node_modules/google-gax/build/src/bundlingcalls/task.d.ts"
+        "../node_modules/google-gax/build/src/bundlingCalls/bundleDescriptor.d.ts",
+        "../node_modules/google-gax/build/src/bundlingCalls/task.d.ts"
       ],
-      "../node_modules/google-gax/build/src/bundlingcalls/task.d.ts": [
+      "../node_modules/google-gax/build/src/bundlingCalls/task.d.ts": [
         "../node_modules/google-gax/build/src/apitypes.d.ts"
       ],
       "../node_modules/google-gax/build/src/call.d.ts": [
         "../node_modules/google-gax/build/src/apitypes.d.ts"
       ],
-      "../node_modules/google-gax/build/src/clientinterface.d.ts": [
+      "../node_modules/google-gax/build/src/clientInterface.d.ts": [
         "../node_modules/google-auth-library/build/src/index.d.ts",
         "../node_modules/google-gax/build/protos/operations.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
         "../node_modules/google-gax/build/src/grpc.d.ts",
-        "../node_modules/google-gax/build/src/longrunningcalls/longrunning.d.ts"
+        "../node_modules/google-gax/build/src/longRunningCalls/longrunning.d.ts"
       ],
-      "../node_modules/google-gax/build/src/createapicall.d.ts": [
+      "../node_modules/google-gax/build/src/createApiCall.d.ts": [
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts"
@@ -4058,7 +4058,7 @@
         "../node_modules/protobufjs/index.d.ts",
         "../node_modules/protobufjs/minimal.d.ts"
       ],
-      "../node_modules/google-gax/build/src/fallbackerror.d.ts": [
+      "../node_modules/google-gax/build/src/fallbackError.d.ts": [
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/google-gax/build/src/status.d.ts",
         "../node_modules/protobufjs/index.d.ts"
@@ -4066,7 +4066,7 @@
       "../node_modules/google-gax/build/src/gax.d.ts": [
         "../node_modules/google-gax/build/src/bundlingcalls/bundleexecutor.d.ts"
       ],
-      "../node_modules/google-gax/build/src/googleerror.d.ts": [
+      "../node_modules/google-gax/build/src/googleError.d.ts": [
         "../node_modules/google-gax/build/src/status.d.ts"
       ],
       "../node_modules/google-gax/build/src/grpc.d.ts": [
@@ -4078,11 +4078,11 @@
         "../node_modules/google-gax/build/src/gax.d.ts",
         "../node_modules/protobufjs/index.d.ts"
       ],
-      "../node_modules/google-gax/build/src/iamservice.d.ts": [
+      "../node_modules/google-gax/build/src/iamService.d.ts": [
         "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
         "../node_modules/google-auth-library/build/src/index.d.ts",
         "../node_modules/google-gax/build/protos/iam_service.d.ts",
-        "../node_modules/google-gax/build/src/clientinterface.d.ts",
+        "../node_modules/google-gax/build/src/clientInterface.d.ts",
         "../node_modules/google-gax/build/src/fallback.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
         "../node_modules/google-gax/build/src/grpc.d.ts"
@@ -4111,38 +4111,38 @@
         "../node_modules/protobufjs/index.d.ts",
         "../node_modules/protobufjs/minimal.d.ts"
       ],
-      "../node_modules/google-gax/build/src/longrunningcalls/longrunning.d.ts": [
+      "../node_modules/google-gax/build/src/longRunningCalls/longRunningApiCaller.d.ts": [
+        "../node_modules/google-gax/build/src/apiCaller.d.ts",
+        "../node_modules/google-gax/build/src/apitypes.d.ts",
+        "../node_modules/google-gax/build/src/call.d.ts",
+        "../node_modules/google-gax/build/src/gax.d.ts",
+        "../node_modules/google-gax/build/src/googleError.d.ts",
+        "../node_modules/google-gax/build/src/longRunningCalls/longRunningDescriptor.d.ts"
+      ],
+      "../node_modules/google-gax/build/src/longRunningCalls/longRunningDescriptor.d.ts": [
+        "../node_modules/google-gax/build/src/descriptor.d.ts",
+        "../node_modules/google-gax/build/src/longRunningCalls/longRunningApiCaller.d.ts",
+        "../node_modules/google-gax/build/src/operationsClient.d.ts",
+        "../node_modules/protobufjs/index.d.ts"
+      ],
+      "../node_modules/google-gax/build/src/longRunningCalls/longrunning.d.ts": [
         "../node_modules/@types/node/events.d.ts",
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/google-gax/build/protos/operations.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/call.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/googleerror.d.ts",
+        "../node_modules/google-gax/build/src/googleError.d.ts",
         "../node_modules/google-gax/build/src/grpc.d.ts",
-        "../node_modules/google-gax/build/src/longrunningcalls/longrunningdescriptor.d.ts"
+        "../node_modules/google-gax/build/src/longRunningCalls/longRunningDescriptor.d.ts"
       ],
-      "../node_modules/google-gax/build/src/longrunningcalls/longrunningapicaller.d.ts": [
-        "../node_modules/google-gax/build/src/apicaller.d.ts",
+      "../node_modules/google-gax/build/src/normalCalls/normalApiCaller.d.ts": [
+        "../node_modules/google-gax/build/src/apiCaller.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/call.d.ts",
-        "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/googleerror.d.ts",
-        "../node_modules/google-gax/build/src/longrunningcalls/longrunningdescriptor.d.ts"
+        "../node_modules/google-gax/build/src/googleError.d.ts"
       ],
-      "../node_modules/google-gax/build/src/longrunningcalls/longrunningdescriptor.d.ts": [
-        "../node_modules/google-gax/build/src/descriptor.d.ts",
-        "../node_modules/google-gax/build/src/longrunningcalls/longrunningapicaller.d.ts",
-        "../node_modules/google-gax/build/src/operationsclient.d.ts",
-        "../node_modules/protobufjs/index.d.ts"
-      ],
-      "../node_modules/google-gax/build/src/normalcalls/normalapicaller.d.ts": [
-        "../node_modules/google-gax/build/src/apicaller.d.ts",
-        "../node_modules/google-gax/build/src/apitypes.d.ts",
-        "../node_modules/google-gax/build/src/call.d.ts",
-        "../node_modules/google-gax/build/src/googleerror.d.ts"
-      ],
-      "../node_modules/google-gax/build/src/operationsclient.d.ts": [
+      "../node_modules/google-gax/build/src/operationsClient.d.ts": [
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/node/stream.d.ts",
         "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
@@ -4150,27 +4150,27 @@
         "../node_modules/google-gax/build/protos/operations.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/call.d.ts",
-        "../node_modules/google-gax/build/src/clientinterface.d.ts",
+        "../node_modules/google-gax/build/src/clientInterface.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/fallback.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
         "../node_modules/google-gax/build/src/grpc.d.ts"
       ],
-      "../node_modules/google-gax/build/src/paginationcalls/pagedescriptor.d.ts": [
+      "../node_modules/google-gax/build/src/paginationCalls/pageDescriptor.d.ts": [
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/google-gax/build/src/apicaller.d.ts",
+        "../node_modules/google-gax/build/src/apiCaller.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts"
       ],
-      "../node_modules/google-gax/build/src/streamingcalls/streamdescriptor.d.ts": [
-        "../node_modules/google-gax/build/src/apicaller.d.ts",
+      "../node_modules/google-gax/build/src/streamingCalls/streamDescriptor.d.ts": [
+        "../node_modules/google-gax/build/src/apiCaller.d.ts",
         "../node_modules/google-gax/build/src/descriptor.d.ts",
         "../node_modules/google-gax/build/src/gax.d.ts",
-        "../node_modules/google-gax/build/src/streamingcalls/streaming.d.ts"
+        "../node_modules/google-gax/build/src/streamingCalls/streaming.d.ts"
       ],
-      "../node_modules/google-gax/build/src/streamingcalls/streaming.d.ts": [
+      "../node_modules/google-gax/build/src/streamingCalls/streaming.d.ts": [
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/node/stream.d.ts",
         "../node_modules/google-gax/build/src/apitypes.d.ts",
@@ -4258,7 +4258,7 @@
       "../node_modules/@google-cloud/storage/build/src/bucket.d.ts",
       "../node_modules/@google-cloud/storage/build/src/channel.d.ts",
       "../node_modules/@google-cloud/storage/build/src/file.d.ts",
-      "../node_modules/@google-cloud/storage/build/src/hmackey.d.ts",
+      "../node_modules/@google-cloud/storage/build/src/hmacKey.d.ts",
       "../node_modules/@google-cloud/storage/build/src/iam.d.ts",
       "../node_modules/@google-cloud/storage/build/src/index.d.ts",
       "../node_modules/@google-cloud/storage/build/src/notification.d.ts",
@@ -4463,7 +4463,7 @@
       "../node_modules/google-auth-library/build/src/auth/baseexternalclient.d.ts",
       "../node_modules/google-auth-library/build/src/auth/computeclient.d.ts",
       "../node_modules/google-auth-library/build/src/auth/credentials.d.ts",
-      "../node_modules/google-auth-library/build/src/auth/envdetect.d.ts",
+      "../node_modules/google-auth-library/build/src/auth/envDetect.d.ts",
       "../node_modules/google-auth-library/build/src/auth/externalclient.d.ts",
       "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
       "../node_modules/google-auth-library/build/src/auth/iam.d.ts",
@@ -4479,40 +4479,40 @@
       "../node_modules/google-auth-library/build/src/transporters.d.ts",
       "../node_modules/google-gax/build/protos/iam_service.d.ts",
       "../node_modules/google-gax/build/protos/operations.d.ts",
-      "../node_modules/google-gax/build/src/apicaller.d.ts",
+      "../node_modules/google-gax/build/src/apiCaller.d.ts",
       "../node_modules/google-gax/build/src/apitypes.d.ts",
-      "../node_modules/google-gax/build/src/bundlingcalls/bundleapicaller.d.ts",
-      "../node_modules/google-gax/build/src/bundlingcalls/bundledescriptor.d.ts",
-      "../node_modules/google-gax/build/src/bundlingcalls/bundleexecutor.d.ts",
-      "../node_modules/google-gax/build/src/bundlingcalls/task.d.ts",
+      "../node_modules/google-gax/build/src/bundlingCalls/bundleApiCaller.d.ts",
+      "../node_modules/google-gax/build/src/bundlingCalls/bundleDescriptor.d.ts",
+      "../node_modules/google-gax/build/src/bundlingCalls/bundleExecutor.d.ts",
+      "../node_modules/google-gax/build/src/bundlingCalls/task.d.ts",
       "../node_modules/google-gax/build/src/call.d.ts",
-      "../node_modules/google-gax/build/src/clientinterface.d.ts",
-      "../node_modules/google-gax/build/src/createapicall.d.ts",
+      "../node_modules/google-gax/build/src/clientInterface.d.ts",
+      "../node_modules/google-gax/build/src/createApiCall.d.ts",
       "../node_modules/google-gax/build/src/descriptor.d.ts",
       "../node_modules/google-gax/build/src/fallback.d.ts",
-      "../node_modules/google-gax/build/src/fallbackerror.d.ts",
+      "../node_modules/google-gax/build/src/fallbackError.d.ts",
       "../node_modules/google-gax/build/src/gax.d.ts",
-      "../node_modules/google-gax/build/src/googleerror.d.ts",
+      "../node_modules/google-gax/build/src/googleError.d.ts",
       "../node_modules/google-gax/build/src/grpc.d.ts",
-      "../node_modules/google-gax/build/src/iamservice.d.ts",
+      "../node_modules/google-gax/build/src/iamService.d.ts",
       "../node_modules/google-gax/build/src/index.d.ts",
-      "../node_modules/google-gax/build/src/longrunningcalls/longrunning.d.ts",
-      "../node_modules/google-gax/build/src/longrunningcalls/longrunningapicaller.d.ts",
-      "../node_modules/google-gax/build/src/longrunningcalls/longrunningdescriptor.d.ts",
-      "../node_modules/google-gax/build/src/normalcalls/normalapicaller.d.ts",
-      "../node_modules/google-gax/build/src/operationsclient.d.ts",
-      "../node_modules/google-gax/build/src/paginationcalls/pagedescriptor.d.ts",
-      "../node_modules/google-gax/build/src/pathtemplate.d.ts",
-      "../node_modules/google-gax/build/src/routingheader.d.ts",
+      "../node_modules/google-gax/build/src/longRunningCalls/longRunningApiCaller.d.ts",
+      "../node_modules/google-gax/build/src/longRunningCalls/longRunningDescriptor.d.ts",
+      "../node_modules/google-gax/build/src/longRunningCalls/longrunning.d.ts",
+      "../node_modules/google-gax/build/src/normalCalls/normalApiCaller.d.ts",
+      "../node_modules/google-gax/build/src/operationsClient.d.ts",
+      "../node_modules/google-gax/build/src/paginationCalls/pageDescriptor.d.ts",
+      "../node_modules/google-gax/build/src/pathTemplate.d.ts",
+      "../node_modules/google-gax/build/src/routingHeader.d.ts",
       "../node_modules/google-gax/build/src/status.d.ts",
-      "../node_modules/google-gax/build/src/streamingcalls/streamdescriptor.d.ts",
-      "../node_modules/google-gax/build/src/streamingcalls/streaming.d.ts",
+      "../node_modules/google-gax/build/src/streamingCalls/streamDescriptor.d.ts",
+      "../node_modules/google-gax/build/src/streamingCalls/streaming.d.ts",
       "../node_modules/gtoken/build/src/index.d.ts",
       "../node_modules/protobufjs/ext/descriptor/index.d.ts",
       "../node_modules/protobufjs/index.d.ts",
       "../node_modules/protobufjs/minimal.d.ts",
+      "../node_modules/teeny-request/build/src/TeenyStatistics.d.ts",
       "../node_modules/teeny-request/build/src/index.d.ts",
-      "../node_modules/teeny-request/build/src/teenystatistics.d.ts",
       "../node_modules/typescript/lib/lib.d.ts",
       "../node_modules/typescript/lib/lib.dom.d.ts",
       "../node_modules/typescript/lib/lib.es2015.collection.d.ts",

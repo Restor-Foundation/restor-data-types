@@ -16,6 +16,14 @@ export declare type ValidGeometryType = Polygon | MultiPolygon | GeometryCollect
  *         type: string
  *       description:
  *         type: string
+ *       moderation:
+ *         type: string
+ *       moderationDescription:
+ *         type: string
+ *       createdBy:
+ *         type: number
+ *       updatedBy:
+ *         type: number
  */
 export interface ISiteGalleryPhoto {
     id: string;
@@ -23,6 +31,8 @@ export interface ISiteGalleryPhoto {
     description: string;
     moderation: ModerationStates;
     moderationDescription: string | null;
+    createdBy?: number;
+    updatedBy?: number;
 }
 /**
  * @swagger
@@ -251,8 +261,8 @@ export interface ISiteType {
     slug: string;
     description: string;
     photo: string;
-    moderation: ModerationStates;
-    moderationDescription: string | null;
+    moderation?: ModerationStates;
+    moderationDescription?: string | null;
     collection?: ICollectionType;
     website: string;
     contactEmail: string;
