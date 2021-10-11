@@ -23,8 +23,8 @@ export interface ISiteGalleryPhoto {
   id: string;
   url: string;
   description: string;
-  moderation: ModerationStates;
-  moderationDescription: string | null;
+  moderation?: ModerationStates;
+  moderationDescription?: string | null;
 }
 
 /**
@@ -270,8 +270,8 @@ export interface ISiteType {
   slug: string;
   description: string;
   photo: string;
-  moderation: ModerationStates;
-  moderationDescription: string | null;
+  moderation?: ModerationStates;
+  moderationDescription?: string | null;
   collection?: ICollectionType;
   website: string;
   contactEmail: string;
