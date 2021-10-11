@@ -101,6 +101,8 @@ export interface IUserTypeMinimal {
  *           type: string
  */
 export interface IIAMUserType extends UserRecord {
+  firstName?: string;
+  lastName?: string;
   sites?: ISiteMemberType[];
   teams?: ITeamMemberType[];
   openTeamInvites?: ITeamInviteType[];
