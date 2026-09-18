@@ -30,6 +30,12 @@ export interface IAreaReference {
   siteId?: string;
   /** Site UUID */
   siteUUID?: string;
+  /**
+   * Year to resume a rolling-archive calculation from (e.g. Net Primary
+   * Productivity), instead of recomputing full history. Omit for a full
+   * historical run.
+   */
+  sinceYear?: number;
 }
 export interface IInsightsResponse {
   chapters: IInsightChapterDefinition[];
